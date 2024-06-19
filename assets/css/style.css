@@ -1,10 +1,17 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .jumbotron {
     background-color: #f8f9fa;
     margin-bottom: 0;
+    padding: 2rem 1rem;
+}
+
+header h1, header p {
+    margin: 0;
 }
 
 h2 {
@@ -15,10 +22,30 @@ h2 {
 .card {
     border: 1px solid #6c757d;
     border-radius: 10px;
+    margin-bottom: 1rem;
 }
 
 footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .jumbotron {
+        padding: 1rem 0.5rem;
+    }
 }
