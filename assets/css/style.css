@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    margin-bottom: 0;
+}
+
+h2 {
+    border-bottom: 2px solid #6c757d;
+    padding-bottom: 10px;
+}
+
+.card {
+    border: 1px solid #6c757d;
+    border-radius: 10px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
