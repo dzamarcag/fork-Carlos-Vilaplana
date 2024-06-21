@@ -7,33 +7,14 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-g85Tbso5d+UcfB+Hn4ki5mEkQ8X9DeykGnye0EFeWT1W+nECcGV1EmXhN0FvVVRtG5r3wD2S2oHdM9Gje8i6Fw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     <title>Currículum Vitae</title>
 </head>
 <body>
-   <!--  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Curriculm Vitae</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#educacion">Educación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experiencia">Experiencia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portafolio">Portafolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                </li>
-            </ul>
-        </div>
-    </nav> -->
-  <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Mi CV</a>
+     <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">CV</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,73 +33,24 @@
         </div>
     </nav> 
 
-    <!-- Barra de navegación7 opcion 3 -->
-    <!-- <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Mi CV</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#experiencia">Experiencia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#educacion">Educación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#proyectos">Proyectos</a>
-                </li>
-            </ul>
-        </div>
-    </nav> --> 
+   
     <header class="jumbotron text-center">
         <h1>Carlos Vilaplana Pérez</h1>
         <p>Desarrollador Web | Diseñador Front End</p>
     </header>
-
-    <section id="educacion" class="container mt-5">
-        <h2>Educación</h2>
-        <div class="card mt-3">
-            <div class="card-body">
-                <h5 class="card-title">UNIVERSIDAD ANDRES BELLO</h5>
-                <p class="card-text">Licenciatura en ...</p>
-                <p class="card-text"><small class="text-muted">Año de inicio - Año de finalización</small></p>
+    <section id="descripcion" class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="./assets/img/yo portada.jpg" class="img-fluid rounded-circle" alt="Carlos Vilaplana Pérez">
+            </div>
+            <div class="col-md-8">
+                <p>Soy un profesional proactivo y apasionado, enfocado en el desarrollo de habilidades en áreas comerciales y administrativas. Destaco por mi empatía, trabajo en equipo y capacidad para alcanzar y superar metas. Busco oportunidades para crecer y aprender en nuevos sectores, manteniendo un enfoque en el networking y las relaciones empresariales sólidas.</p>
             </div>
         </div>
-        <!-- Añadir más tarjetas de educación según sea necesario -->
     </section>
-
-    <section id="experiencia" class="container mt-5">
-        <h2>Experiencia</h2>
-        <div class="card mt-3">
-            <div class="card-body">
-                <h5 class="card-title">Banco Bci </h5>
-                <p class="card-text">Descripción del puesto y responsabilidades.</p>
-                <p class="card-text"><small class="text-muted">Año de inicio - Año de finalización</small></p>
-            </div>
-        </div>
-        <!-- Añadir más tarjetas de experiencia faltan 2 -->
-    </section>
-
-    <section id="portafolio" class="container mt-5">
-        <h2>Portafolio</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card mt-3">
-                    <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Proyecto 1</h5>
-                        <p class="card-text">Descripción breve del proyecto.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Añadir más proyectos -->
-        </div>
-    </section>
-
+   
     <footer class="bg-dark text-white text-center p-4 mt-5">
-        <p>Carlos Vilaplana | Contacto: cvilaplana948@gmail.com | Tel: +56 9 5617 5628</p>
+        <p>Carlos Vilaplana | Contacto: <i class="fas fa-envelope"></i> cvilaplana948@gmail.com | Tel: <i class="fas fa-phone"></i> +56 9 5617 5628</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
